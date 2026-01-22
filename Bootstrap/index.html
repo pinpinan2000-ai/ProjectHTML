@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | ผลงานนักศึกษา</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="#">
+                <i class="bi bi-code-slash me-2"></i>MyPortfolio
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> <li class="nav-item"><a class="nav-link active" href="#home">หน้าแรก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">เกี่ยวกับฉัน</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">ทักษะ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">ผลงาน</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-warning text-dark ms-lg-3 px-3 rounded-pill" href="#contact">ติดต่อฉัน</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+                <div class="col-lg-6 text-center text-lg-start mt-4 mt-lg-0">
+                    <h2 class="text-warning fw-bold">สวัสดีครับ, ผมชื่อ</h2>
+                    <h1 class="display-3 fw-bold text-white">สมชาย ใจดี</h1>
+                    <p class="lead text-white-50 mb-4">นักศึกษาวิทยาการคอมพิวเตอร์ | ผู้หลงใหลในการสร้างสรรค์เว็บไซต์และ AI</p>
+                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+                        <a href="#projects" class="btn btn-warning btn-lg px-4 fw-bold">ดูผลงานของผม</a>
+                        <a href="#" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://placehold.co/400x400/333/warning?text=Profile+Pic" alt="Profile" class="profile-img img-fluid shadow-lg">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">เกี่ยวกับฉัน</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="lead text-secondary">
+                        "ผมเป็นนักศึกษาชั้นปีที่ 3 ที่มีความสนใจพิเศษด้านการพัฒนา Front-end และ Machine Learning 
+                        ผมชอบเรียนรู้เทคโนโลยีใหม่ๆ และ เป้าหมายของผมคือการเป็น Full Stack Developer ที่สร้าง Impact ให้กับผู้ใช้งานครับ"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">ทักษะความสามารถ</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3 text-center">
+                        <h4 class="fw-bold mb-3">Programming</h4>
+                        <div>
+                            <span class="badge bg-warning text-dark fs-6 m-1">JavaScript</span>
+                            <span class="badge bg-info text-dark fs-6 m-1">Java</span>
+                            <span class="badge bg-dark fs-6 m-1">C#</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3 text-center">
+                        <h4 class="fw-bold mb-3">Web Tools</h4>
+                        <div>
+                            <span class="badge bg-danger fs-6 m-1">HTML5</span>
+                            <span class="badge bg-primary fs-6 m-1">CSS3</span>
+                            <span class="badge bg-success fs-6 m-1">Bootstrap 5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3 text-center">
+                        <h4 class="fw-bold mb-3">Soft Skills</h4>
+                        <div>
+                            <span class="badge bg-secondary fs-6 m-1">Teamwork</span>
+                            <span class="badge bg-secondary fs-6 m-1">Problem Solving</span>
+                            <span class="badge bg-secondary fs-6 m-1">Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">ผลงานของผม</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card project-card h-100 shadow-sm">
+                        <img src="https://placehold.co/600x400/EEE/31343C?text=Project+1" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">ระบบทำนายฝุ่น PM2.5</h5>
+                            <p class="card-text text-muted">Web Application ที่ใช้โมเดล LSTM ในการพยากรณ์ค่าฝุ่นล่วงหน้า แสดงผลผ่านกราฟ</p>
+                            <a href="#" class="btn btn-outline-dark btn-sm">ดูโค้ด (GitHub)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card h-100 shadow-sm">
+                        <img src="https://placehold.co/600x400/EEE/31343C?text=Project+2" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">เว็บ E-Commerce</h5>
+                            <p class="card-text text-muted">ระบบร้านค้าออนไลน์ รองรับระบบตะกร้าสินค้า และการชำระเงินเบื้องต้น</p>
+                            <a href="#" class="btn btn-outline-dark btn-sm">ดูโค้ด (GitHub)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card h-100 shadow-sm">
+                        <img src="https://placehold.co/600x400/EEE/31343C?text=Project+3" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">แอปคำนวณ BMI</h5>
+                            <p class="card-text text-muted">Mobile App พื้นฐานสร้างด้วย Flutter สำหรับคำนวณดัชนีมวลกาย</p>
+                            <a href="#" class="btn btn-outline-dark btn-sm">ดูโค้ด (GitHub)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark text-white py-4 text-center">
+        <div class="container">
+            <h3>ติดต่อผม</h3>
+            <p>Email: student@university.ac.th | Tel: 081-234-5678</p>
+            <div class="fs-3 mb-3">
+                <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-line"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <p class="small opacity-50">&copy; 2024 MyPortfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

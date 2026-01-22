@@ -1,0 +1,60 @@
+/* ฟอนต์ภาษาไทย */
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* ปรับระยะให้ Navbar ไม่ทับเนื้อหา เพราะเราใช้ fixed-top */
+body {
+    padding-top: 56px;
+}
+
+/* ตกแต่งส่วน Hero (พื้นหลังสีดำ) */
+.hero-section {
+    background-color: #212529; /* สีเทาเข้มเกือบดำ */
+    min-height: 100vh; /* สูงเต็มหน้าจอ */
+    padding: 80px 0;
+}
+
+/* รูปโปรไฟล์ */
+.profile-img {
+    border-radius: 50%; /* วงกลม */
+    border: 5px solid #ffc107; /* ขอบสีเหลือง */
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.05); /* ขยายเมื่อเอาเมาส์ชี้ */
+}
+
+/* เส้นขีดใต้หัวข้อ */
+.title-underline {
+    width: 60px;
+    height: 5px;
+    background-color: #ffc107; /* สีเหลือง */
+    border-radius: 5px;
+}
+
+/* เอฟเฟกต์การ์ดโปรเจกต์ */
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* ปรับแต่ง Navbar Link */
+.navbar-nav .nav-link {
+    font-weight: 400;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 600;
+    color: #ffc107 !important; /* สีเหลืองเมื่อเลือก */
+}
