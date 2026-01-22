@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติศาสตร์ | Lanna Heritage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">LANNA HERITAGE</a>
+            <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">หน้าแรก</a></li>
+                <li><a href="history.html" class="nav-link">ประวัติศาสตร์</a></li>
+                <li><a href="architecture.html" class="nav-link">สถาปัตยกรรม</a></li>
+                <li><a href="arts.html" class="nav-link">หัตถกรรม</a></li>
+                <li><a href="traditions.html" class="nav-link">ประเพณี</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://www.openbase.in.th/files/u10/lannakhadee008_0.jpg');">
+            <div class="hero-content">
+                <h1>ประวัติศาสตร์ล้านนา</h1>
+                <p>ย้อนรอยอดีตกว่า 700 ปี</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="zigzag-row">
+                <img src="https://curadio.chula.ac.th/Images/Program-Radio/ts/2021/2021-01-24-10611-d169086.jpg" class="zigzag-img">
+                <div class="zigzag-text">
+                    <h2>การก่อตั้งอาณาจักร</h2>
+                    <p>พญามังรายมหาราชทรงสถาปนาเมืองเชียงใหม่เป็นราชธานีในปี พ.ศ. 1839 เพื่อเป็นศูนย์กลางการปกครองที่มั่นคง โดยตั้งอยู่บริเวณที่ราบลุ่มแม่น้ำปิง</p>
+                </div>
+            </div>
+            <div class="zigzag-row">
+                <img src="https://kalyanamitra.org/th/images/dou/Pre-Degree/PD%20005/PD005_12.jpg" class="zigzag-img">
+                <div class="zigzag-text">
+                    <h2>ยุคทองของศาสนา</h2>
+                    <p>ในสมัยพญาติโลกราช ศาสนาพุทธเจริญรุ่งเรืองสูงสุด มีการสังคายนาพระไตรปิฎกครั้งที่ 8 ของโลก ณ วัดเจ็ดยอด และสร้างศาสนสถานสำคัญมากมาย</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer><p>&copy; 2024 Lanna Heritage Project</p></footer>
+    <script>
+        const hb = document.querySelector(".hamburger"), nm = document.querySelector(".nav-menu");
+        hb.addEventListener("click", () => { nm.classList.toggle("active"); });
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สถาปัตยกรรม | Lanna Heritage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">LANNA HERITAGE</a>
+            <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">หน้าแรก</a></li>
+                <li><a href="history.html" class="nav-link">ประวัติศาสตร์</a></li>
+                <li><a href="architecture.html" class="nav-link">สถาปัตยกรรม</a></li>
+                <li><a href="arts.html" class="nav-link">หัตถกรรม</a></li>
+                <li><a href="traditions.html" class="nav-link">ประเพณี</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://lanna-arch.net/files/lannaarch_db_110_20210514315330.jpg');">
+            <div class="hero-content">
+                <h1>สถาปัตยกรรม</h1>
+                <p>เอกลักษณ์เรือนกาแลและวิหาร</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="section-title"><h2>ความวิจิตรบรรจง</h2></div>
+        </section>
+
+        <div class="full-width-box" style="background-image: url('https://f.ptcdn.info/938/058/000/pcsi6dc2gj34nPXJYxe-o.jpg');">
+            <div class="white-overlay">
+                <h3>วิหารทรงล้านนา</h3>
+                <p>หลังคาซ้อนชั้นลดหลั่นกันลงมา ประดับช่อฟ้า ใบระกา และหน้าบันแกะสลักปิดทอง</p>
+            </div>
+        </div>
+
+        <div class="full-width-box" style="background-image: url('https://www.bloggang.com/data/t/tuk-tukatkorat/picture/1591690075.jpg');">
+            <div class="white-overlay">
+                <h3>เจดีย์ทรงระฆัง</h3>
+                <p>สถาปัตยกรรมที่ได้รับอิทธิพลจากลังกา ผสมผสานศิลปะมอญและสุโขทัย</p>
+            </div>
+        </div>
+    </main>
+
+    <footer><p>&copy; 2024 Lanna Heritage Project</p></footer>
+    <script>
+        const hb = document.querySelector(".hamburger"), nm = document.querySelector(".nav-menu");
+        hb.addEventListener("click", () => { nm.classList.toggle("active"); });
+    </script>
+</body>
+</html>

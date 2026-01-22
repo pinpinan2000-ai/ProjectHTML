@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแรก | Lanna Heritage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">LANNA HERITAGE</a>
+            <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">หน้าแรก</a></li>
+                <li><a href="history.html" class="nav-link">ประวัติศาสตร์</a></li>
+                <li><a href="architecture.html" class="nav-link">สถาปัตยกรรม</a></li>
+                <li><a href="arts.html" class="nav-link">หัตถกรรม</a></li>
+                <li><a href="traditions.html" class="nav-link">ประเพณี</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://chillpainai.com/src/wewakeup/scoop/images/89a79097aa10aef703caa0d99c404f39.jpg');">
+            <div class="hero-content">
+                <h1>มนต์เสน่ห์แห่งล้านนา</h1>
+                <p>มรดกทางวัฒนธรรมอันล้ำค่าแห่งภาคเหนือ</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="section-title"><h2>หมวดหมู่เนื้อหา</h2></div>
+            <div class="grid-3">
+                <div class="card">
+                    <img src="https://www.openbase.in.th/files/u10/lannakhadee008_0.jpg" alt="ประวัติศาสตร์">
+                    <div class="card-body">
+                        <h3>ประวัติศาสตร์</h3>
+                        <p>เรื่องราวความเป็นมาของอาณาจักรล้านนา</p>
+                        <a href="history.html" class="btn-gold">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://lanna-arch.net/files/lannaarch_db_110_20210514315330.jpg" alt="สถาปัตยกรรม">
+                    <div class="card-body">
+                        <h3>สถาปัตยกรรม</h3>
+                        <p>ความงามของวัดวาอารามและเรือนล้านนา</p>
+                        <a href="architecture.html" class="btn-gold">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="http://creativecitychiangmai.chiangmaipao.go.th/wp/wp-content/uploads/2021/09/post_20160419190147_as_cm_basket_lacquerware_silverware_prasongs_colle_3.jpg" alt="ศิลปะ">
+                    <div class="card-body">
+                        <h3>ศิลปะและหัตถกรรม</h3>
+                        <p>ภูมิปัญญาช่างสิบหมู่และงานฝีมือ</p>
+                        <a href="arts.html" class="btn-gold">อ่านต่อ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer><p>&copy; 2026 LANNA CHIANG MAI</p></footer>
+    <script>
+        const hb = document.querySelector(".hamburger"), nm = document.querySelector(".nav-menu");
+        hb.addEventListener("click", () => { nm.classList.toggle("active"); });
+    </script>
+</body>
+</html>
